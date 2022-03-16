@@ -56,7 +56,7 @@
         </div>
       </nav>
 
-<!-- main + sidebar -->
+<!-- main  -->
     <div class="container-fluid h-100">
       <div class="row h-100">
           <div class="col overflow-auto h-100 py-5"> 
@@ -64,21 +64,28 @@
               <p>Weather!</p>
               <p>We didn't start the fire. It was always burning since the world's been turning. </p>
           </div>
-          <div class="col-3 bg-light text-dark text-center"> Visualizations
-            <ul class="list-unstyled">
-              <li class="nav-item">
-                <a href="maxtemp.html"><img src="Assets/images/MaxTvsLat.svg" class="img-fluid" alt="Maximum Temperature"></a>
-              </li>
-              <li class="nav-item">
-                <a href="humidity.html"><img src="Assets/images/HumVsLat.svg" class="img-fluid" alt="Humidity"></a>
-              </li>
-              <li class="nav-item">
-                <a href="cloudniess.html"><img src="Assets/images/CloudVsLat.svg" class="img-fluid" alt="Cloudiness"></a>
-              </li>
-              <li class="nav-item">
-                <a href="windspeed.html"><img src="Assets/images/WSpdVsLat.svg" class="img-fluid" alt="Wind Speed"></a>
-              </li>
-            </ul>
+<!-- sidebar  -->
+          
+          <div class="col-md-5 col-lg-4 bg-light" id = "Visualizations">
+            <div class="container bg-light">
+              <h2 class = "text-center">Visualizations</h2>
+              <hr>
+              <div class="container">
+                <div class="row">
+                  <!-- <ul class="list-unstyled"> -->
+                    <div class="col-sm-3 col-md-12 col-xxl-6">
+                      <a href="maxtemp.html"><img src="Assets/images/MaxTvsLat.svg" class="img-fluid" title="Maximum Temperature vs Latitude" alt="Maximum Temperature vs Latitude"></a>
+                    </div>
+                    <div class="col-sm-3 col-md-12 col-xxl-6">
+                      <a href="humidity.html"><img src="Assets/images/HumVsLat.svg" class="img-fluid" title="Humidity vs Latitude" alt="Humidity vs Latitude"></a>
+                    </div>
+                    <div class="col-sm-3 col-md-12 col-xxl-6">
+                      <a href="cloudniess.html"><img src="Assets/images/CloudVsLat.svg" class="img-fluid" title="Cloudiness vs Latitude" alt="Cloudiness vs Latitude"></a>
+                    </div>
+                    <div class="col-sm-3 col-md-12 col-xxl-6">
+                      <a href="windspeed.html"><img src="Assets/images/WSpdVsLat.svg" class="img-fluid" title="Wind Speed vs Latitude" alt="Wind Speed vs Latitude"></a>
+                    </div>
+                  <!-- </ul> -->
           </div>
       </div>
   </div>  
