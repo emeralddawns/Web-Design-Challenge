@@ -10,6 +10,10 @@
     padding-bottom: 1.5rem;
 }
 
+.graph{
+    padding: 1.5rem;
+}
+
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:rgb(14, 115, 122);
@@ -18,4 +22,9 @@ h1{
 h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:rgb(14, 115, 122);    
+}
+
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(14, 115, 122);  
 }
