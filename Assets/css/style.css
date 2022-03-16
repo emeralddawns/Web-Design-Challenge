@@ -4,3 +4,8 @@
     background-image: linear-gradient(to bottom right, rgb(23, 198, 211), rgb(14, 115, 122));
 
 }
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(14, 115, 122);
+}

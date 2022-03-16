@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="style.css">    
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -24,11 +24,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-              <li class="nav-item dropdown me-auto">
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Plots
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="maxtemp.html">Maximum Temperature</a></li>
                   <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
                   <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
@@ -56,8 +56,32 @@
         </div>
       </nav>
 
-
-
+<!-- main + sidebar -->
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+          <div class="col overflow-auto h-100 py-5"> 
+              <h1>Latitude and Weather</h1>
+              <p>Weather!</p>
+              <p>We didn't start the fire. It was always burning since the world's been turning. </p>
+          </div>
+          <div class="col-3 bg-light text-dark text-center"> Visualizations
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="maxtemp.html"><img src="Assets/images/MaxTvsLat.svg" class="img-fluid" alt="Maximum Temperature"></a>
+              </li>
+              <li class="nav-item">
+                <a href="humidity.html"><img src="Assets/images/HumVsLat.svg" class="img-fluid" alt="Humidity"></a>
+              </li>
+              <li class="nav-item">
+                <a href="cloudniess.html"><img src="Assets/images/CloudVsLat.svg" class="img-fluid" alt="Cloudiness"></a>
+              </li>
+              <li class="nav-item">
+                <a href="windspeed.html"><img src="Assets/images/WSpdVsLat.svg" class="img-fluid" alt="Wind Speed"></a>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </div>  
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
