@@ -1,0 +1,6 @@
+.navbar-brand{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 1.5rem;
+    background-image: linear-gradient(to bottom right, rgb(23, 198, 211), rgb(14, 115, 122));
+
+}
