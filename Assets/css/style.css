@@ -4,10 +4,35 @@
     background-image: linear-gradient(to bottom right, rgb(23, 198, 211), rgb(14, 115, 122));
 
 }
+
+#Analysis{
+    margin: 2%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;   
+}
+
 #Visualizations{
     margin: 2%;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem;   
+}
+
+#Summary{
+    margin: 2%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;   
+}
+
+.blurb{
+    padding-top: 1.5rem;
+}
+
+#wikilink{
+    color:rgb(14, 115, 122);
+}
+
+#project-link{
+    color:rgb(14, 115, 122); 
 }
 
 .graph{

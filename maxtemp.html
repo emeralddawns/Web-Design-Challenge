@@ -55,23 +55,28 @@
       </nav>
 
 <!-- main  -->
-<div class="container-fluid h-100">
-    <div class="row h-100">
-        <div class="col overflow-auto h-100 py-5"> 
-            <h1>Latitude and Maximum Temperature</h1>
-            <p>Weather!</p>
-            <p>We didn't start the fire. It was always burning since the world's been turning. </p>
+  <div class="container-fluid h-auto">
+    <div class="row h-auto">
+        <div class="col overflow-auto h-auto bg-light" id="Analysis"> 
+            <h1 class="text-center">Latitude and Maximum Temperature</h1>
+            <hr>
+            <div class="row">
+              <a href="maxtemp.html"><img src="Assets/images/MaxTvsLat.svg" class="img-fluid mx-auto d-block" title="Maximum Temperature vs Latitude" alt="Maximum Temperature vs Latitude"></a>
+            </div>
+            <div class="row">
+              <p class="text-justify blurb"> The plot above displays the relationship between Maximum Temperature (F) and Latitude. Based on the plot, there does appear to be a relationship between Max Temp (F) and Latitude.</p>                        
+              <p>The northern hemisphere has a strong negative correlation between maximum temperature and latitude, while the southern atmosphere has a positive correlation.  Temperatures trend higher closer to the equator (latitude 0) because the equator and surrounding regions receive the greatest amount of direct sunlight. The northern hemisphere is currently angled away from the sun (causing overall cooler temperatures), while the southern hemisphere is angled toward the sun (causing overall warmer temperatures).</p>
+            </div>                     
         </div>
 
 <!-- sidebar  -->
-  
         <div class="col-md-5 col-lg-4 bg-light" id = "Visualizations">
             <div class="container bg-light">
             <h2 class = "text-center">Visualizations</h2>
             <hr>
             <div class="container">
                 <div class="row">
-                <!-- <ul class="list-unstyled"> -->
+
                     <div class="col-sm-3 col-md-12 col-xxl-6">
                         <a href="maxtemp.html"><img src="Assets/images/MaxTvsLat.svg" class="img-fluid" title="Maximum Temperature vs Latitude" alt="Maximum Temperature vs Latitude"></a>
                     </div>
@@ -84,7 +89,7 @@
                     <div class="col-sm-3 col-md-12 col-xxl-6">
                         <a href="windspeed.html"><img src="Assets/images/WSpdVsLat.svg" class="img-fluid" title="Wind Speed vs Latitude" alt="Wind Speed vs Latitude"></a>
                     </div>
-                <!-- </ul> -->
+
         </div>
     </div>
 </div>  

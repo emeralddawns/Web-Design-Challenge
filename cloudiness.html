@@ -55,12 +55,18 @@
 
 
 <!-- main  -->
-        <div class="container-fluid h-100">
-            <div class="row h-100">
-                <div class="col overflow-auto h-100 py-5"> 
-                    <h1>Latitude and Cloudiness</h1>
-                    <p>Weather!</p>
-                    <p>We didn't start the fire. It was always burning since the world's been turning. </p>
+        <div class="container-fluid h-auto">
+            <div class="row h-auto">
+                <div class="col overflow-auto h-auto bg-light" id="Analysis"> 
+                    <h1 class="text-center">Latitude and Cloudiness</h1>
+                    <hr>
+                    <div class="row">
+                      <a href="cloudiness.html"><img src="Assets/images/CloudVsLat.svg" class="img-fluid mx-auto d-block" title="Cloudiness vs Latitude" alt="Cloudiness vs Latitude"></a>
+                    </div>
+                    <div class="row">
+                      <p class="text-justify blurb"> The plot above displays the relationship between Cloudiness (%) and Latitude. Based on the plot, the relationship between Cloudiness (%) and Latitude is likely weak.</p>                        
+                      <p>To learn more, visit Wikipedia's page on <a target="_blank" class="link" id="wikilink" href="https://en.wikipedia.org/wiki/Cloud_cover">cloud cover.</a></p>
+                    </div>                     
                 </div>
 
       <!-- sidebar  -->
