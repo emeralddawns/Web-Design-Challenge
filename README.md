@@ -1,10 +1,8 @@
 # Web-Design-Challenge
 This assignment consisted of creating a website displaying plots and a data table.
 
-# What the code does (in general terms)
+# What the code does
 The code uses Bootstrap and CSS to customize an HTML page, creating a dashboard for a subset of the information gathered and analyzed in the **python-api-challenge** (https://github.com/emeralddawns/python-api-challenge).
-
-# What the code calculates
 
 The **HTML** files create indivdual pages displaying the following:
     
@@ -22,6 +20,6 @@ The **HTML** files create indivdual pages displaying the following:
 
     7. data.html: A responsive table that contains the data used in the four (4) visualizations.
 
-All pages included a navigation menu with links leading the user to any other desired page.
+All pages include a navigation menu with links leading the user to any other desired page.
 
 All pages, with the exception of comparisons.html and data.html, display a sidebar with all four (4) plots displayed. Each plot links to the page created specifically for that plot.
